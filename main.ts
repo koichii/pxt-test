@@ -1,6 +1,6 @@
 //% weight=70 icon="\uf1ec" color=#00bbd7
 namespace fiveDigit {
-    //% blockId=show_number block="Show a number %num"
+    //% blockId=show_number block="かずをひょうじ %num"
     export function showNumber(num: number = 0): void {
         serial.writeLine("input: " + num.toString())
         let str = num.toString()
