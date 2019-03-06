@@ -4,7 +4,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "pxt-test": "workspace:0c71cafa-43cc-4026-cf54-b2c9bd875656"
     },
     "files": [
         "README.md",
@@ -13,5 +14,6 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false
+    "public": false,
+    "installedVersion": "workspace:0c71cafa-43cc-4026-cf54-b2c9bd875656"
 }
